@@ -1,12 +1,15 @@
 fileFormatVersion: 2
 guid: f1b7124ab1b0d1148bedabb407df0bef
-timeCreated: 1460911241
+timeCreated: 1460928217
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Woman_0
     21300002: Woman_1
     21300004: Woman_2
+    21300006: Woman_3
+    21300008: Woman_4
+    21300010: Woman_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,7 +60,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -86,7 +89,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -105,7 +108,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -120,6 +123,69 @@ TextureImporter:
         - {x: 20, y: -51}
         - {x: 20, y: -13}
         - {x: 15, y: 24}
+    - name: Woman_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -36}
+        - {x: 2, y: -47}
+        - {x: 5, y: -50}
+        - {x: 14, y: -51}
+        - {x: 32, y: -48}
+        - {x: 32, y: 34}
+        - {x: 30, y: 41}
+        - {x: -19, y: 41}
+        - {x: -21, y: 21}
+        - {x: -21, y: -36}
+        - {x: -13, y: -51}
+        - {x: 0, y: -51}
+        - {x: 2, y: -49}
+        - {x: 2, y: -46}
+        - {x: -1, y: -43}
+    - name: Woman_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 41}
+        - {x: -21, y: -51}
+        - {x: 6, y: -51}
+        - {x: 12, y: -49}
+        - {x: 32, y: -28}
+        - {x: 32, y: 24}
+        - {x: 23, y: 41}
+    - name: Woman_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 39}
+        - {x: -11, y: 39}
+        - {x: -21, y: 34}
+        - {x: -21, y: -49}
+        - {x: -18, y: -51}
+        - {x: 25, y: -51}
+        - {x: 32, y: -20}
+        - {x: 32, y: 6}
     outline: []
   spritePackingTag: 
   userData: 

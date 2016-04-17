@@ -3,10 +3,18 @@ using System.Collections;
 
 public class G : MonoBehaviour {
 
-	public static string HOUSE_SCENE = "House";
-	public static string STREET_SCENE = "Street";
-	public static string PHARMACY_SCENE = "Pharmacy";
-	public static string GUNSHOP_SCENE = "GunShop";
+	public const string HOUSE_SCENE = "House";
+	public const string STREET_SCENE = "Street";
+	public const string PHARMACY_SCENE = "Pharmacy";
+	public const string GUNSHOP_SCENE = "GunShop";
+
+	public const int NO_ITEM = 0;
+	public const int MEDICINE_ITEM = 1;
+	public const int GUN_ITEM = 2;
+
+	public static int item = NO_ITEM;
+
+	public static int coins = 10;
 
 	public static string prevScene;
 }
