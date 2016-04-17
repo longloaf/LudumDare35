@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: c7c614db11e94484080e8444ec9e1078
+timeCreated: 1460887727
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Man_0
+    21300002: Man_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Man_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 52}
+        - {x: -31, y: 4}
+        - {x: -31, y: -18}
+        - {x: -27, y: -21}
+        - {x: -24, y: -21}
+        - {x: -20, y: -16}
+        - {x: -18, y: -9}
+        - {x: -18, y: -7}
+        - {x: -17, y: -6}
+        - {x: -18, y: -8}
+        - {x: -18, y: -13}
+        - {x: -19, y: -14}
+        - {x: -21, y: -50}
+        - {x: -19, y: -52}
+        - {x: -9, y: -54}
+        - {x: 24, y: -54}
+        - {x: 24, y: 50}
+        - {x: 19, y: 52}
+    - name: Man_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -18}
+        - {x: 10, y: -10}
+        - {x: 11, y: -15}
+        - {x: 11, y: -20}
+        - {x: 13, y: -22}
+        - {x: 23, y: -33}
+        - {x: 23, y: 42}
+        - {x: 16, y: 48}
+        - {x: -4, y: 48}
+        - {x: -24, y: 16}
+        - {x: -25, y: 7}
+        - {x: -25, y: -53}
+        - {x: 19, y: -53}
+        - {x: 21, y: -47}
+        - {x: 12, y: -22}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
