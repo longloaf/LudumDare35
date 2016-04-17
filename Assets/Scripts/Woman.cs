@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Woman : MonoBehaviour {
 
 	public float speed = 1;
+
+	public float doorRadius = 1;
+	public LayerMask doorLayerMask;
 
 	SpriteRenderer spriteRenderer;
 	Rigidbody2D rb2d;
@@ -35,5 +39,20 @@ public class Woman : MonoBehaviour {
 		}
 		anim.SetBool ("Walk", velx != 0);
 	}
+
+	void Update()
+	{
+		Collider2D door = Physics2D.OverlapCircle (transform.position, doorRadius, doorLayerMask);
+		if (door != null && Input.GetKeyDown (KeyCode.UpArrow)) {
+			door.SendMessage ("EnterDoor");
+		}
+	}
+
+	void OnDrawGizmos()
+	{
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere (transform.position, doorRadius);
+	}
+
 }
 
