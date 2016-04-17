@@ -1,11 +1,19 @@
 fileFormatVersion: 2
 guid: c7c614db11e94484080e8444ec9e1078
-timeCreated: 1460887727
+timeCreated: 1460893416
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Man_0
     21300002: Man_1
+    21300004: Man_2
+    21300006: Man_3
+    21300008: Man_4
+    21300010: Man_5
+    21300012: Man_6
+    21300014: Man_7
+    21300016: Man_8
+    21300018: Man_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,7 +64,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -85,7 +93,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 0
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -107,6 +115,199 @@ TextureImporter:
         - {x: 19, y: -53}
         - {x: 21, y: -47}
         - {x: 12, y: -22}
+    - name: Man_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -53}
+        - {x: 25, y: -41}
+        - {x: 25, y: 40}
+        - {x: 16, y: 45}
+        - {x: 4, y: 45}
+        - {x: -27, y: 10}
+        - {x: -27, y: -26}
+        - {x: -21, y: -53}
+        - {x: -4, y: -53}
+        - {x: -3, y: -48}
+        - {x: -1, y: -52}
+        - {x: 3, y: -53}
+    - name: Man_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 43}
+        - {x: 10, y: 43}
+        - {x: 2, y: 36}
+        - {x: -2, y: 30}
+        - {x: -25, y: 7}
+        - {x: -25, y: -52}
+        - {x: -22, y: -53}
+        - {x: 23, y: -53}
+        - {x: 24, y: -35}
+        - {x: 24, y: 38}
+    - name: Man_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 40}
+        - {x: -1, y: 40}
+        - {x: -25, y: 17}
+        - {x: -25, y: -53}
+        - {x: 19, y: -53}
+        - {x: 22, y: -52}
+        - {x: 24, y: -32}
+        - {x: 24, y: 37}
+    - name: Man_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -52}
+        - {x: 24, y: -34}
+        - {x: 24, y: 39}
+        - {x: 20, y: 43}
+        - {x: 10, y: 43}
+        - {x: 0, y: 37}
+        - {x: -25, y: 8}
+        - {x: -25, y: -52}
+        - {x: -19, y: -53}
+        - {x: -3, y: -53}
+        - {x: -3, y: -52}
+        - {x: -2, y: -53}
+        - {x: 17, y: -53}
+    - name: Man_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -34}
+        - {x: 21, y: -37}
+        - {x: 22, y: -37}
+        - {x: 15, y: -27}
+        - {x: 21, y: -21}
+        - {x: 26, y: -11}
+        - {x: 25, y: 1}
+        - {x: 24, y: 45}
+        - {x: 0, y: 45}
+        - {x: -15, y: 40}
+        - {x: -27, y: 4}
+        - {x: -27, y: -15}
+        - {x: -22, y: -50}
+        - {x: -11, y: -57}
+        - {x: 28, y: -57}
+        - {x: 29, y: -50}
+        - {x: 29, y: -37}
+        - {x: 28, y: -33}
+    - name: Man_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -23}
+        - {x: 14, y: -27}
+        - {x: 21, y: -35}
+        - {x: 26, y: -23}
+        - {x: 26, y: 44}
+        - {x: 25, y: 52}
+        - {x: -3, y: 52}
+        - {x: -25, y: 12}
+        - {x: -31, y: -2}
+        - {x: -31, y: -41}
+        - {x: -29, y: -54}
+        - {x: 22, y: -54}
+        - {x: 21, y: -47}
+        - {x: 11, y: -35}
+        - {x: 11, y: -19}
+    - name: Man_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 51}
+        - {x: -31, y: 25}
+        - {x: -31, y: -46}
+        - {x: -29, y: -55}
+        - {x: 26, y: -55}
+        - {x: 26, y: 51}
+    - name: Man_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -55}
+        - {x: 28, y: -55}
+        - {x: 28, y: 31}
+        - {x: 22, y: 49}
+        - {x: -3, y: 49}
+        - {x: -10, y: 44}
+        - {x: -32, y: 12}
+        - {x: -32, y: -33}
+        - {x: -21, y: -36}
+        - {x: -18, y: -35}
+        - {x: -16, y: -33}
+        - {x: -16, y: -31}
+        - {x: -15, y: -31}
+        - {x: -17, y: -36}
+        - {x: -19, y: -36}
+        - {x: -21, y: -37}
+        - {x: -23, y: -48}
+        - {x: -18, y: -55}
+        - {x: -7, y: -55}
+        - {x: -2, y: -54}
+        - {x: 0, y: -52}
+        - {x: 0, y: -48}
+        - {x: 1, y: -53}
     outline: []
   spritePackingTag: 
   userData: 
