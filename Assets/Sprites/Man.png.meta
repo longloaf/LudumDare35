@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c7c614db11e94484080e8444ec9e1078
-timeCreated: 1460893416
+timeCreated: 1460910349
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,6 +14,8 @@ TextureImporter:
     21300014: Man_7
     21300016: Man_8
     21300018: Man_9
+    21300020: Man_10
+    21300022: Man_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -308,6 +310,41 @@ TextureImporter:
         - {x: 0, y: -52}
         - {x: 0, y: -48}
         - {x: 1, y: -53}
+    - name: Man_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 48}
+        - {x: -27, y: 12}
+        - {x: -27, y: -33}
+        - {x: -17, y: -55}
+        - {x: 27, y: -55}
+        - {x: 27, y: 43}
+        - {x: 19, y: 48}
+    - name: Man_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 18}
+        - {x: -23, y: -56}
+        - {x: 27, y: -56}
+        - {x: 27, y: 46}
+        - {x: -12, y: 46}
+        - {x: -19, y: 38}
     outline: []
   spritePackingTag: 
   userData: 
