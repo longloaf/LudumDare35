@@ -23,6 +23,13 @@ public class Man : MonoBehaviour {
 	Animator anim;
 	Rigidbody2D rb;
 
+	public GameObject transformSnd;
+	public GameObject deathSnd;
+
+	public GameObject door;
+
+	public GameObject deadMan;
+
 	void Awake ()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer> ();
@@ -39,8 +46,11 @@ public class Man : MonoBehaviour {
 		}
 
 		if (!transformFlag && G.item != G.NO_ITEM && Physics2D.OverlapCircle (transform.position, attackWomanRadius, womanLayerMask)) {
+			door.SetActive (false);
 			transformFlag = true;
 			anim.SetTrigger ("Transform");
+			GameObject trSnd = Instantiate<GameObject> (transformSnd);
+			trSnd.transform.position = transform.position;
 		}
 
 		if (attackFlag) {
@@ -75,5 +85,10 @@ public class Man : MonoBehaviour {
 	public void Kill()
 	{
 		Destroy (gameObject);
+		GameObject snd = Instantiate<GameObject> (deathSnd);
+		snd.transform.position = transform.position;
+
+		GameObject dm = Instantiate<GameObject> (deadMan);
+		dm.transform.position = transform.position;
 	}
 }

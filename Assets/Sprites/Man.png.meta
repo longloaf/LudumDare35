@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c7c614db11e94484080e8444ec9e1078
-timeCreated: 1460910349
+timeCreated: 1460941635
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +16,10 @@ TextureImporter:
     21300018: Man_9
     21300020: Man_10
     21300022: Man_11
+    21300024: Man_12
+    21300026: Man_13
+    21300028: Man_14
+    21300030: Man_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,7 +70,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 240
+        y: 360
         width: 120
         height: 120
       alignment: 0
@@ -95,7 +99,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 240
+        y: 360
         width: 120
         height: 120
       alignment: 0
@@ -121,7 +125,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 240
+        y: 360
         width: 120
         height: 120
       alignment: 0
@@ -144,7 +148,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 240
+        y: 360
         width: 120
         height: 120
       alignment: 0
@@ -165,7 +169,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 120
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -184,7 +188,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 120
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -208,7 +212,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 120
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -237,7 +241,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 120
+        y: 240
         width: 120
         height: 120
       alignment: 0
@@ -263,7 +267,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -280,7 +284,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -314,7 +318,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -332,7 +336,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 0
+        y: 120
         width: 120
         height: 120
       alignment: 0
@@ -345,6 +349,262 @@ TextureImporter:
         - {x: 27, y: 46}
         - {x: -12, y: 46}
         - {x: -19, y: 38}
+    - name: Man_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -57}
+        - {x: 30, y: -43}
+        - {x: 30, y: 33}
+        - {x: 18, y: 42}
+        - {x: -14, y: 42}
+        - {x: -32, y: 33}
+        - {x: -32, y: -57}
+      - - {x: 9, y: -55}
+        - {x: 12, y: -54}
+        - {x: 12, y: -51}
+        - {x: 9, y: -50}
+        - {x: 7, y: -52}
+      - - {x: 3, y: -54}
+        - {x: 6, y: -53}
+        - {x: 6, y: -50}
+        - {x: 3, y: -49}
+        - {x: 1, y: -51}
+      - - {x: -29, y: 5}
+        - {x: -26, y: 6}
+        - {x: -26, y: 9}
+        - {x: -29, y: 10}
+        - {x: -31, y: 8}
+      - - {x: -28, y: 18}
+        - {x: -27, y: 15}
+        - {x: -23, y: 15}
+        - {x: -21, y: 17}
+        - {x: -22, y: 20}
+        - {x: -26, y: 20}
+      - - {x: 25, y: 20}
+        - {x: 28, y: 21}
+        - {x: 28, y: 24}
+        - {x: 25, y: 25}
+        - {x: 23, y: 23}
+    - name: Man_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 40}
+        - {x: 19, y: 31}
+        - {x: 20, y: 27}
+        - {x: 20, y: 19}
+        - {x: 23, y: 16}
+        - {x: 23, y: 14}
+        - {x: 21, y: 17}
+        - {x: 19, y: 17}
+        - {x: 18, y: 14}
+        - {x: 14, y: 25}
+        - {x: 11, y: 26}
+        - {x: -2, y: 22}
+        - {x: 10, y: 29}
+        - {x: 11, y: 40}
+        - {x: 6, y: 40}
+        - {x: -5, y: 38}
+        - {x: -20, y: 40}
+        - {x: -23, y: 40}
+        - {x: -31, y: 23}
+        - {x: -36, y: 11}
+        - {x: -32, y: 10}
+        - {x: -29, y: 11}
+        - {x: -24, y: 13}
+        - {x: -20, y: 9}
+        - {x: -35, y: 10}
+        - {x: -57, y: -6}
+        - {x: -57, y: -30}
+        - {x: -43, y: -53}
+        - {x: 35, y: -53}
+        - {x: 53, y: -49}
+        - {x: 53, y: 40}
+      - - {x: 17, y: 7}
+        - {x: 20, y: 8}
+        - {x: 20, y: 11}
+        - {x: 17, y: 12}
+        - {x: 15, y: 10}
+      - - {x: -36, y: 31}
+        - {x: -38, y: 30}
+        - {x: -39, y: 26}
+        - {x: -37, y: 23}
+        - {x: -34, y: 20}
+        - {x: -30, y: 20}
+        - {x: -28, y: 24}
+        - {x: -28, y: 30}
+        - {x: -29, y: 31}
+      - - {x: -32, y: 33}
+        - {x: -31, y: 30}
+        - {x: -27, y: 30}
+        - {x: -25, y: 32}
+        - {x: -26, y: 35}
+        - {x: -30, y: 35}
+      - - {x: -12, y: 39}
+        - {x: -10, y: 34}
+        - {x: -8, y: 34}
+        - {x: -3, y: 38}
+        - {x: -4, y: 41}
+        - {x: -10, y: 42}
+      - - {x: -23, y: 42}
+        - {x: -19, y: 38}
+        - {x: -16, y: 39}
+        - {x: -16, y: 41}
+        - {x: -20, y: 45}
+        - {x: -22, y: 45}
+      - - {x: -11, y: 42}
+        - {x: -8, y: 43}
+        - {x: -8, y: 46}
+        - {x: -11, y: 47}
+        - {x: -13, y: 45}
+      - - {x: -18, y: 44}
+        - {x: -15, y: 45}
+        - {x: -15, y: 48}
+        - {x: -18, y: 49}
+        - {x: -20, y: 47}
+      - - {x: -14, y: 49}
+        - {x: -11, y: 50}
+        - {x: -11, y: 53}
+        - {x: -14, y: 54}
+        - {x: -16, y: 52}
+    - name: Man_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -53}
+        - {x: 35, y: -55}
+        - {x: 35, y: -60}
+        - {x: 39, y: -60}
+        - {x: 41, y: -58}
+        - {x: 39, y: -53}
+      - - {x: -15, y: 13}
+        - {x: -18, y: 10}
+        - {x: -17, y: 7}
+        - {x: -14, y: 6}
+        - {x: -16, y: 6}
+        - {x: -26, y: 5}
+        - {x: -48, y: -23}
+        - {x: -58, y: -41}
+        - {x: -58, y: -48}
+        - {x: -45, y: -52}
+        - {x: -21, y: -60}
+        - {x: 36, y: -60}
+        - {x: 47, y: -54}
+        - {x: 47, y: -29}
+        - {x: 43, y: -21}
+        - {x: 14, y: 5}
+        - {x: -3, y: 13}
+      - - {x: 4, y: 7}
+        - {x: 7, y: 8}
+        - {x: 7, y: 11}
+        - {x: 4, y: 12}
+        - {x: 2, y: 10}
+      - - {x: 56, y: 16}
+        - {x: 52, y: 14}
+        - {x: 52, y: 12}
+        - {x: 56, y: 9}
+        - {x: 60, y: 11}
+        - {x: 60, y: 16}
+      - - {x: -21, y: 12}
+        - {x: -18, y: 13}
+        - {x: -18, y: 16}
+        - {x: -21, y: 17}
+        - {x: -23, y: 15}
+      - - {x: 46, y: 46}
+        - {x: 42, y: 42}
+        - {x: 42, y: 16}
+        - {x: 48, y: 14}
+        - {x: 52, y: 14}
+        - {x: 60, y: 16}
+        - {x: 60, y: 44}
+        - {x: 59, y: 46}
+      - - {x: 40, y: 27}
+        - {x: 43, y: 28}
+        - {x: 43, y: 31}
+        - {x: 40, y: 32}
+        - {x: 38, y: 30}
+      - - {x: -27, y: 29}
+        - {x: -24, y: 29}
+        - {x: -24, y: 33}
+        - {x: -26, y: 38}
+        - {x: -30, y: 38}
+        - {x: -31, y: 35}
+      - - {x: -33, y: 52}
+        - {x: -35, y: 54}
+        - {x: -38, y: 53}
+        - {x: -46, y: 44}
+        - {x: -47, y: 42}
+        - {x: -47, y: 36}
+        - {x: -41, y: 32}
+        - {x: -35, y: 32}
+        - {x: -34, y: 33}
+        - {x: -34, y: 37}
+        - {x: -36, y: 39}
+        - {x: -37, y: 39}
+      - - {x: -24, y: 38}
+        - {x: -20, y: 37}
+        - {x: -17, y: 39}
+        - {x: -18, y: 42}
+        - {x: -23, y: 43}
+        - {x: -25, y: 41}
+      - - {x: -32, y: 49}
+        - {x: -36, y: 47}
+        - {x: -36, y: 40}
+        - {x: -26, y: 40}
+        - {x: -26, y: 47}
+        - {x: -27, y: 49}
+      - - {x: -44, y: 47}
+        - {x: -41, y: 48}
+        - {x: -41, y: 51}
+        - {x: -44, y: 52}
+        - {x: -46, y: 50}
+      - - {x: -22, y: 51}
+        - {x: -19, y: 52}
+        - {x: -19, y: 55}
+        - {x: -22, y: 56}
+        - {x: -24, y: 54}
+    - name: Man_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: -53}
+        - {x: -43, y: -60}
+        - {x: 25, y: -60}
+        - {x: 39, y: -56}
+        - {x: 39, y: -42}
+        - {x: 14, y: -21}
+        - {x: -13, y: -21}
+        - {x: -41, y: -27}
+        - {x: -51, y: -34}
     outline: []
   spritePackingTag: 
   userData: 

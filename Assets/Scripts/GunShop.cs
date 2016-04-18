@@ -4,16 +4,32 @@ using System.Collections;
 
 public class GunShop : MonoBehaviour {
 
+	public GameObject buySound;
+	public GameObject noMoneySound;
+	public GameObject doorSound;
+
 	void Update ()
 	{
-		if (Input.GetKeyDown (KeyCode.X) && G.coins > 0) {
-			G.coins = 0;
-			G.item = G.GUN_ITEM;
+		if (Input.GetKeyDown (KeyCode.X)) {
+			if (G.coins > 0) {
+				G.coins = 0;
+				G.item = G.GUN_ITEM;
+				InstSnd (buySound);
+			} else {
+				InstSnd (noMoneySound);
+			}
 		}
-		if (Input.GetKeyDown (KeyCode.Escape)) {
+		if (Input.GetKeyDown (KeyCode.C)) {
 			G.prevScene = G.GUNSHOP_SCENE;
 			SceneManager.LoadScene (G.STREET_SCENE);
+			InstSnd (doorSound);
 		}
 
+	}
+
+	void InstSnd(GameObject s)
+	{
+		GameObject snd = Instantiate<GameObject> (s);
+		snd.transform.position = Vector3.zero;
 	}
 }

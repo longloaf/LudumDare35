@@ -16,6 +16,11 @@ public class Woman : MonoBehaviour {
 	bool fire = false;
 	public LayerMask manLayerMask;
 
+	public GameObject gunSound;
+	public GameObject deathSnd;
+
+	public GameObject deadWoman;
+
 	void Awake()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer> ();
@@ -61,6 +66,8 @@ public class Woman : MonoBehaviour {
 			if (rs.collider != null) {
 				rs.collider.SendMessageUpwards ("Kill");
 			}
+			GameObject snd = Instantiate<GameObject> (gunSound);
+			snd.transform.position = transform.position;
 		}
 	}
 
@@ -78,6 +85,11 @@ public class Woman : MonoBehaviour {
 	public void Kill()
 	{
 		Destroy (gameObject);
+		GameObject snd = Instantiate<GameObject> (deathSnd);
+		snd.transform.position = transform.position;
+
+		GameObject dw = Instantiate<GameObject> (deadWoman);
+		dw.transform.position = transform.position;
 	}
 
 }

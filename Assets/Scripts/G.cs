@@ -7,6 +7,8 @@ public class G : MonoBehaviour {
 	public const string STREET_SCENE = "Street";
 	public const string PHARMACY_SCENE = "Pharmacy";
 	public const string GUNSHOP_SCENE = "GunShop";
+	public const string MENU_SCENE = "Menu";
+	public const string THEEND_SCENE = "TheEnd";
 
 	public const int NO_ITEM = 0;
 	public const int MEDICINE_ITEM = 1;
